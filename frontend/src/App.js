@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Login from "./components/login";
 import Main from "./components/main";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import Snackbar from "material-ui/Snackbar";
@@ -7,7 +6,6 @@ import "typeface-roboto";
 import Api from './api';
 import { path } from "ramda";
 import mobileCheck from "./utils/mobilecheck";
-import appDefaultState from "./constants/appDefaultState";
 import { Router, Route, Switch } from "react-router";
 import mainComponent from "./components/main";
 import createHistory from "history/createBrowserHistory";
